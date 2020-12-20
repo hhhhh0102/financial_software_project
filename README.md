@@ -11,7 +11,7 @@ https://github.com/kairess/stock_crypto_price_prediction
  
 # Dependencies
 python 3.7
-numpy 1.9.13
+numpy 1.18.5
 pandas 1.1.4
 matplotlib 3.3.2
 tensorflwow-cpu 2.3.1
