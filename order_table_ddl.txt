@@ -1,0 +1,8 @@
+CREATE TABLE `order` (
+  `ordernum` int NOT NULL AUTO_INCREMENT,
+  `user_id` int NOT NULL,
+  `stock_code` varchar(12) NOT NULL,
+  PRIMARY KEY (`ordernum`),
+  KEY `user_id_idx` (`user_id`),
+  CONSTRAINT `order_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci

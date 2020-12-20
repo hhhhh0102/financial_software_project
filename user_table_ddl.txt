@@ -1,0 +1,8 @@
+CREATE TABLE `user` (
+  `id` int NOT NULL,
+  `password` varchar(16) NOT NULL,
+  `grade` int DEFAULT NULL,
+  `master_account` int DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `idMembers_UNIQUE` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
