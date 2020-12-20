@@ -20,4 +20,4 @@ selenium 3.141.0
 
 # MySql Workbench를 통해 데이터베이스가 생성이 되어있어야 합니다.
 MySql 8.0버전을 사용하였으며, username은 root로, password는 root, DB는 main_db라는 명으로 생성해주셔야합니다.
-그리고 2개의 테이블("order", "user")을 생성해야합니다.
+그리고 2개의 테이블("order", "user")을 생성해야합니다. 해당 테이블을 생성하는 DDL은 order_table_ddl.txt, user_table_ddl.txt를 확인해주시기 바랍니다.
