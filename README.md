@@ -17,3 +17,7 @@ matplotlib 3.3.2
 tensorflwow-cpu 2.3.1
 pymysql 0.10.1
 selenium 3.141.0
+
+# MySql Workbench를 통해 데이터베이스가 생성이 되어있어야 합니다.
+MySql 8.0버전을 사용하였으며, username은 root로, password는 root, DB는 main_db라는 명으로 생성해주셔야합니다.
+그리고 2개의 테이블("order", "user")을 생성해야합니다.
